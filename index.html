@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nichole Sherman | Web Developer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Nichole Sherman, full-stack web developer with experience in academic advising systems, Python applications, and front-end UI projects." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">NS</div>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Full-Stack Web Developer • Problem Solver • Mentor</p>
+          <h1>Hi, I'm Nichole Sherman.</h1>
+          <p class="hero-subtitle">
+            I build real-world web and desktop applications that make complex workflows simple. My experience ranges from
+            a full academic advising system with drag-and-drop planning to Python tools and front-end UI projects.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn secondary">Get in Touch</a>
+          </div>
+          <div class="hero-meta">
+            <span>📍 Somerset, WI (Remote friendly)</span>
+            <span>🎯 Target: Front-End / Full-Stack Dev</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Tech Snapshot</h2>
+          <ul class="tech-list">
+            <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React</li>
+            <li><strong>Backend:</strong> PHP, Node.js, Python</li>
+            <li><strong>Database:</strong> MariaDB/MySQL, SQL</li>
+            <li><strong>Other:</strong> Git, Linux, WAMP/LAMP</li>
+          </ul>
+          <div class="hero-links">
+            <a href="https://github.com/nichole-s" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/nichole-sherman-982b8337/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Selected Projects</h2>
+        <p class="section-intro">
+          These are the projects I’m most proud of. They represent full-stack systems, scripting, and front-end UI work.
+        </p>
+
+        <div class="projects-grid">
+          <!-- Project 1: Student Advising -->
+          <article class="project-card">
+            <h3>Student Advising &amp; Academic Planning System</h3>
+            <p class="project-tagline">
+              Full-stack web app for managing students, courses, and personalized academic plans with a drag-and-drop advising interface.
+            </p>
+            <ul class="project-highlights">
+              <li>Three-column advising interface (Taken, Recommended, Required)</li>
+              <li>CSV bulk upload via Python for student records</li>
+              <li>User management and password expiration</li>
+            </ul>
+            <p class="project-tech">
+              <strong>Tech:</strong> PHP, JavaScript, HTML, CSS, MariaDB, Python
+            </p>
+            <div class="project-links">
+              <a href="https://youtu.be/Sxt3GdigkX8" target="_blank" rel="noreferrer">🎥 Video Walkthrough</a>
+              <a href="https://github.com/nichole-s/student-advising" target="_blank" rel="noreferrer">GitHub Repo</a>
+            </div>
+          </article>
+
+          <!-- Project 2: Meal Generator -->
+          <article class="project-card">
+            <h3>Meal Generator – Python GUI App</h3>
+            <p class="project-tagline">
+              A Tkinter-based desktop app that helps users generate balanced meals based on selected proteins, vegetables, smart carbs, healthy fats, and flavor profiles.
+            </p>
+            <ul class="project-highlights">
+              <li>Multi-select listboxes for ingredient categories</li>
+              <li>Parses a text file into a dictionary of instructions and spices</li>
+              <li>Validates input and displays full meal suggestions in a text view</li>
+            </ul>
+            <p class="project-tech">
+              <strong>Tech:</strong> Python, Tkinter, File I/O
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/nichole-s/MealGenerator" target="_blank" rel="noreferrer">GitHub Repo</a>
+            </div>
+          </article>
+
+          <!-- Project 3: Chinese Zodiac -->
+          <article class="project-card">
+            <h3>Chinese Zodiac – PHP Web App</h3>
+            <p class="project-tagline">
+              A dynamic PHP site that calculates a user’s Chinese Zodiac animal and element based on birth year.
+            </p>
+            <ul class="project-highlights">
+              <li>Form handling with server-side validation</li>
+              <li>Modulo-based logic for zodiac animal and element cycles</li>
+              <li>Clean templated output with reusable PHP includes</li>
+            </ul>
+            <p class="project-tech">
+              <strong>Tech:</strong> PHP, HTML, CSS
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/nichole-s/ChineseZodiac" target="_blank" rel="noreferrer">GitHub Repo</a>
+            </div>
+          </article>
+
+          <!-- Project 4: Around The U.S. -->
+          <article class="project-card">
+            <h3>Around The U.S. – Front-End UI</h3>
+            <p class="project-tagline">
+              A front-end project focused on profile management and creating “place” cards with modal-style interactions.
+            </p>
+            <ul class="project-highlights">
+              <li>Profile edit, new place, and confirmation flows</li>
+              <li>Thoughtful layout and UI reuse</li>
+              <li>Deployed using GitHub Pages</li>
+            </ul>
+            <p class="project-tech">
+              <strong>Tech:</strong> HTML, CSS, JavaScript
+            </p>
+            <div class="project-links">
+              <a href="https://nichole-s.github.io/web_project_4/" target="_blank" rel="noreferrer">Live Demo</a>
+              <a href="https://github.com/nichole-s/web_project_4" target="_blank" rel="noreferrer">GitHub Repo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-alt">
+      <div class="container about-grid">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I’m a developer with an Information Technology Management degree and a passion for building tools that actually
+            make people’s lives easier. I’ve designed and implemented systems for academic advising, created Python
+            applications, and built front-end interfaces with a strong focus on usability.
+          </p>
+          <p>
+            Before transitioning into tech, I spent years in leadership and mentoring roles. I’ve tutored IT students, led
+            teams, and worked in environments where communication, empathy, and problem-solving were essential. That background
+            translates directly into how I approach software: understand the humans first, then design the solution.
+          </p>
+        </div>
+        <div>
+          <h3>What I Bring to a Team</h3>
+          <ul class="about-list">
+            <li><strong>Systems Thinking:</strong> Comfortable designing databases, workflows, and end-to-end flows.</li>
+            <li><strong>Teaching & Mentoring:</strong> Experience tutoring and explaining technical concepts clearly.</li>
+            <li><strong>Ownership:</strong> I like taking a project from “idea” through architecture, implementation, and polish.</li>
+            <li><strong>Empathy:</strong> I naturally think from the user’s and stakeholder’s point of view.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="section-intro">
+          Interested in working together, or want to know more about any of these projects? I’d love to hear from you.
+        </p>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Get in Touch</h3>
+            <p>Email is usually the best way to reach me.</p>
+            <p><a href="mailto:nsherman086@gmail.com">nsherman086@gmail.com</a></p>
+          </div>
+          <div class="contact-card">
+            <h3>Elsewhere</h3>
+            <ul>
+              <li><a href="https://github.com/nichole-s" target="_blank" rel="noreferrer">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/nichole-sherman-982b8337/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Nichole Sherman</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Smooth scrolling for in-page links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        const targetId = this.getAttribute("href");
+        if (targetId === "#" || targetId === "") return;
+        const target = document.querySelector(targetId);
+        if (!target) return;
+        e.preventDefault();
+        target.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  </script>
+</body>
+</html>
