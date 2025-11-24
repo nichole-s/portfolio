@@ -3,7 +3,7 @@
 This repository contains the source code for my personal developer portfolio.  
 It highlights my full-stack, front-end, and Python projects while giving recruiters and hiring managers a clear sense of who I am, what I’ve built, and what I bring to a team.
 
-**Live Site:** (will add link soon!)  
+**Live Site:** https://nichole-s.github.io/portfolio/ 
 **GitHub:** https://github.com/nichole-s  
 **LinkedIn:** https://www.linkedin.com/in/nichole-sherman-982b8337/
 
