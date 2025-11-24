@@ -411,10 +411,6 @@ img {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .hero-card {
-    order: -1;
-  }
-
   .about-grid,
   .contact-grid {
     grid-template-columns: minmax(0, 1fr);
